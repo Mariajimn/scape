@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SCAPE</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <section id="cont-home">
+        <div class="header">
+            <a href="#" onclick="cerrarPanel()"><img src="img/menu.png" alt="icon_menu">
+                <div id="panel-lateral">
+                    <button onclick="cerrarPanel()">
+                    <img src="img/menu.png" alt="Icon Menu">
+                    </button>
+                    <h2>MENÚ</h2>
+                    <hr>
+                    <ul>
+                        <a href="#">-Home</a>
+                        <a href="#">-Aventuras</a>
+                        <a href="#">-Animadas</a>
+                        <a href="#">-Drama</a>
+                    </ul>
+                    <a class="cerrarSesion" href="#">Cerrar Sesión</a>
+                </div>
+            </a>
+            <a href="#"><img src="img/icon-logo.png" alt="icon_logo"></a>
+            <a href="#"><img src="img/user.png" alt="icon_user"></a>
+        </div>
+
+        <div class="filtros">
+            <button class="active">Aventuras</button>
+            <button>Animadas</button>
+            <button>Dramas</button>
+        </div>
+
+        <p id="copy_category">
+            Descubre emocionantes peliculas de aventura llenas de acción, peligro y exoticos lugares en CINESCAPE  
+        </p>
+
+        <div id="cont-aventuras">
+            <h2>Estrenos:</h2>
+            <hr>
+            <div class="cont-caratulas">
+                <button class="caratula modal-guardianes">
+                    <img src="img/guardianes3.jpg" alt="guardianes3">
+                </button>
+                <button class="caratula modal-bross">
+                    <img src="img/mariobros.jpg" alt="guardianes3">
+                </button>
+                <button class="caratula">
+                    <img src="img/flash.jpg" alt="guardianes3">
+                </button>
+                <button class="caratula">
+                    <img src="img/barbie.jpeg" alt="guardianes3">
+                </button>
+            
+            
+                
+            </div>
+
+            <h2>Proximamente:</h2>
+            <hr>
+            <div class="cont-caratulas">
+                <button class="caratula">
+                    <img src="img/flash.jpg" alt="guardianes3">
+                </button>
+                <button class="caratula">
+                    <img src="img/megalodon.jpg" alt="guardianes3">
+                </button>
+                <button class="caratula">
+                    <img src="img/barbie.jpeg" alt="guardianes3">
+                </button>
+                <button class="caratula">
+                    <img src="img/barbie.jpeg" alt="guardianes3">
+                </button>
+            
+                
+            </div>
+        </div>
+
+        <div class="modal-pelicula m-bross">
+            <button class="close-bross modal-close">X</button>
+            <img src="img/mariobros.jpg" class="caratula-img" alt="Mario Bros">
+            <img src="img/boton_play1.png" class="btn-play" alt="btn-play1">
+            <h2>Super Mario Bros<br>
+            Bros. La pelicula</h2>
+            <p>Estreno 06/05/24</p>
+            <p>Accion, comedia</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi, nobis? Fuga in praesentium odio obcaecati voluptatum aspernatur ab! Dolorem nobis ea iusto ratione recusandae! In esse nemo error aliquid tempora cum, fugiat nihil consectetur est, optio iste, ipsam perspiciatis omnis.</p> 
+        </div>
+
+        <div class="modal-pelicula m-guardianes3">
+            <button class="close-guar modal-close">X</button>
+            <img src="img/guardianes3.jpg" class="caratula-img" alt="guardianes3">
+            <img src="img/boton_play1.png" class="btn-play" alt="btn-play1">
+            <h2>Guardianes de la<br>
+                galaxia 3</h2>
+            <p>Estreno 05/05/23</p>
+            <p>Accion, comedia</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi, nobis? Fuga in praesentium odio obcaecati voluptatum aspernatur ab! Dolorem nobis ea iusto ratione recusandae! In esse nemo error aliquid tempora cum, fugiat nihil consectetur est, optio iste, ipsam perspiciatis omnis.</p> 
+        </div>
+
+        <div class="modal-pelicula m-flash">
+            <button class="close-guar modal-close">X</button>
+            <img src="img/flash.jpg" class="caratula-img" alt="m-flash">
+            <img src="img/boton_play1.png" class="btn-play" alt="btn-play1">
+            <h2>m-flash</h2>
+            <p>Estreno 05/05/23</p>
+            <p>Accion, entretenimiento</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi, nobis? Fuga in praesentium odio obcaecati voluptatum aspernatur ab! Dolorem nobis ea iusto ratione recusandae! In esse nemo error aliquid tempora cum, fugiat nihil consectetur est, optio iste, ipsam perspiciatis omnis.</p> 
+        </div>
+    </section>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
